@@ -23,7 +23,7 @@ const NavBar = () => {
                                 About
                             </NavLink>
                             <NavLink to="/contact">
-                                ContactUs
+                                ContactUS
                             </NavLink>
                         </Flex>
                     </Flex>

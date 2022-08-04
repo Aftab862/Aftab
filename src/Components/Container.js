@@ -109,7 +109,7 @@ const Container = () => {
 
                         <GridItem mt={10} display="flex" flexDir="column" justifyContent="center" alignItems="center" textAlign="center"   >
                             <Image src={index} w="150px" h="150px" />
-                            <Text fontSize="larger" m="25px">React</Text>
+                            <Text fontWeight="semibold" fontSize="larger" m="25px">React</Text>
                             <Text lineHeight={1} fontSize={20} fontWeight="normal" opacity="0.9" color="grey" mt={3} > It is a long estabilished  fact that a reader will be fact that a reader will be distracted by the readable content of a page when</Text>
                             {/* <Text lineHeight={1} fontSize={20} fontWeight="normal" opacity="0.9" color="grey" mt={3} > distracted by the readable content of a page when  content of a page when </Text> */}
 
@@ -117,28 +117,28 @@ const Container = () => {
 
                         <GridItem mt={10} display="flex" flexDir="column" justifyContent="center" alignItems="center" textAlign="center"   >
                             <Image src={native} w="150px" h="150px" />
-                            <Text fontSize="larger" m="25px" >React Native</Text>
+                            <Text fontWeight="semibold" fontSize="larger" m="25px" >React Native</Text>
                             <Text lineHeight={1} fontSize={20} fontWeight="normal" opacity="0.9" color="grey" mt={3} > It is a long estabilished  fact that a reader will be fact that a reader will be distracted by the readable content of a page when</Text>
 
                         </GridItem>
 
                         <GridItem mt={10} display="flex" flexDir="column" justifyContent="center" alignItems="center" textAlign="center"   >
                             <Image src={nodejs} w="150px" h="150px" />
-                            <Text fontSize="larger" m="15px">Express NodeJS</Text>
+                            <Text fontWeight="semibold" fontSize="larger" m="15px">Express NodeJS</Text>
                             <Text lineHeight={1} fontSize={20} fontWeight="normal" opacity="0.9" color="grey" mt={3} > It is a long estabilished  fact that a reader will be fact that a reader will be distracted by the readable content of a page when</Text>
 
                         </GridItem>
 
                         <GridItem mt={10} display="flex" flexDir="column" justifyContent="center" alignItems="center" textAlign="center"   >
                             <Image src={mdb} w="150px" h="150px" />
-                            <Text fontSize="larger" m="15px">Mongo DB</Text>
+                            <Text fontWeight="semibold" fontSize="larger" m="15px">Mongo DB</Text>
                             <Text lineHeight={1} fontSize={20} fontWeight="normal" opacity="0.9" color="grey" mt={3} > It is a long estabilished  fact that a reader will be fact that a reader will be distracted by the readable content of a page when</Text>
 
                         </GridItem>
 
                         <GridItem mt={10} display="flex" flexDir="column" justifyContent="center" alignItems="center" textAlign="center"   >
                             <Image src={firebase} w="150px" h="150px" />
-                            <Text fontSize="larger" m="15px">FireBase</Text>
+                            <Text fontWeight="semibold" fontSize="larger" m="15px">FireBase</Text>
                             <Text lineHeight={1} fontSize={20} fontWeight="normal" opacity="0.9" color="grey" mt={3} > It is a long estabilished  fact that a reader will be fact that a reader will be distracted by the readable content of a page when</Text>
 
                         </GridItem>
@@ -146,7 +146,7 @@ const Container = () => {
 
                         <GridItem mt={10} display="flex" flexDir="column" justifyContent="center" alignItems="center" textAlign="center"   >
                             <Image src={sol} w="150px" h="150px" />
-                            <Text fontSize="larger" m="15px">Solution</Text>
+                            <Text fontWeight="semibold" fontSize="larger" m="15px">Solution</Text>
                             <Text lineHeight={1} fontSize={20} fontWeight="normal" opacity="0.9" color="grey" mt={3} > It is a long estabilished  fact that a reader will be fact that a reader will be distracted by the readable content of a page when</Text>
                         </GridItem>
 

@@ -2,15 +2,14 @@ import './App.css';
 import NavBar from './Components/Nav';
 
 import * as React from 'react'
-
-// 1. import `ChakraProvider` component
 import { ChakraProvider } from '@chakra-ui/react'
 import Header from './Components/Header';
 import Container from './Components/Container';
 import { Route, Routes } from 'react-router-dom';
-
+import Footer from './Components/Footer';
+import BookAppoinment from './Components/BookAppoinment'
+import Contact from './Components/Contact';
 function App() {
-  // 2. Wrap ChakraProvider at the root of your app
   return (
     <ChakraProvider>
       <NavBar />
@@ -19,28 +18,23 @@ function App() {
           <>
             <Header />
             <Container />
+            <BookAppoinment />
+            <Footer />
           </>
         } />
         <Route path="/about" element={
           <>
             {/* <NavBar /> */}
-            <h1>Hello about page</h1>
+            <h1>Hello About us page</h1>
           </>
 
         } />
         <Route path="/contact" element={
-          <>
-            {/* <NavBar /> */}
-            <h1>Hello contact us page</h1>
-          </>
+          <Contact />
         } />
-
       </Routes>
 
-
-
     </ChakraProvider>
-
 
   )
 }

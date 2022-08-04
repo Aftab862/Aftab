@@ -35,6 +35,9 @@ a{
 .App-link {
   color: #61dafb;
 }
+button{
+  margin-inline-start: "0px";
+}
 
 @keyframes App-logo-spin {
   from {
